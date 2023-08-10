@@ -1,4 +1,4 @@
-import user from "../assets/user.json";
+// import user from "../assets/user.json";
 
 export const UsersProfile = ({ username, tag, location, avatar, stats: { followers, views, likes } }) => {
     return (
