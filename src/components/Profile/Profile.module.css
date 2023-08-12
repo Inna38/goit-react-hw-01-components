@@ -1,0 +1,28 @@
+.profile{
+    width: 300px;
+    border: 1px solid rgb(128, 123, 112);
+    box-shadow: 1px 1px 3px ;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.avatar{
+    display: block;
+    margin: auto;
+}
+
+.text{
+text-align: center;
+}
+
+.name{
+font-size: 28px;
+}
+
+.tag{
+font-size: 20px;
+}
+
+.location{
+font-size: 18px;
+}
