@@ -1,0 +1,24 @@
+table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+.transactionHistory {
+  width: 300px;
+  margin: auto;
+  border: 1px solid rgb(128, 123, 112);
+  box-shadow: 1px 1px 3px;
+}
+
+.tablHeader {
+  font-style: italic;
+  text-align: center;
+  letter-spacing: 1px;
+  background-color: blueviolet;
+}
+
+tbody {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  text-shadow: 1px 1px 1px rgb(218, 209, 209);
+}

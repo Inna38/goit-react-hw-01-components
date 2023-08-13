@@ -1,0 +1,28 @@
+ul {
+  padding-left: 0;
+}
+
+.item {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+  width: 300px;
+  margin: 10px auto;
+  border: 1px solid rgb(128, 123, 112);
+  box-shadow: 1px 1px 3px;
+}
+
+.status {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.isOnline {
+  background-color: rgb(57, 245, 182);
+}
+
+.isOffline {
+  background-color: rgb(214, 29, 54);
+}
