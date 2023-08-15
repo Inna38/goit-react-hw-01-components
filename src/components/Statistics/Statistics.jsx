@@ -7,7 +7,7 @@ export const Statistics = ({ stat, title }) => {
     <section className={css.statistics}>
       {title && <h2 className={css.title}>{title}</h2>}
       <ul className={css.statList}>
-        {stat.map(({ id, label, percentage }, index) => (
+        {stat.map(({ id, label, percentage }) => (
           <li
             className={css.item}
             style={{ backgroundColor: getRandomColor() }}
@@ -28,6 +28,6 @@ Statistics.propTypes = {
       id: PropTypes.string.isRequired,
       label: PropTypes.string.isRequired,
       percentage: PropTypes.number.isRequired,
-    })
+    }).isRequired,
   ).isRequired,
 };
